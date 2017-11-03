@@ -2,13 +2,15 @@
 
 The talk slides are [here](craig-aavso-fall-2017.pdf).
 
-## Install of Python
+## Install Python
 
 All of the packages below should work with any Python distribution.
 
 However, they are all easiest to install if you use the [Anaconda Python Distribution](https://www.anaconda.com/download/#macos). An alternative (and much smaller to download) is the [miniconda installer](https://conda.io/miniconda.html), which is the Anaconda distribution without several pre-installed packages.
 
 ## Links to software
+
+The installation instructions below are for the Anaconda (or miniconda) Python distribution. For other Python distributions you can replace `conda` with `pip` to install the software.
 
 + The astropy core package
     * Documentation: http://astropy.readthedocs.io/
@@ -20,3 +22,18 @@ However, they are all easiest to install if you use the [Anaconda Python Distrib
     * Source code/report bugs: https://github.com/astropy/ccdproc (click "Issues to report bugs")
     * Install: `conda install -c astropy ccdproc`
     * Update: `conda update -c astropy ccdproc`
++ Photometry with photutils (IRAF-like source detection, aperture and PSF photometry)
+    * Documentation: http://photutils.readthedocs.io/
+    * Source code/report bugs: https://github.com/astropy/photutils (click "Issues to report bugs")
+    * Install: `conda install -c astropy photutils`
+    * Update: `conda update -c astropy photutils`
++ Photometry with sep (Source Extractor-like photometry):
+    * Documentation: http://sep.readthedocs.io/
+    * Source code/report bugs: https://github.com/kbarbary/sep (click "Issues to report bugs")
+    * Install: `conda install -c conda-forge sep`
+    * Update: `conda update -c conda-forge sep`
++ Catalog/data look-up with astroquery:
+    * Documentation: http://astroquery.readthedocs.io/
+    * Source code/report bugs: https://github.com/astropy/astroquery (click "Issues to report bugs")
+    * Install: `conda install -c astropy astroquery`
+    * Update: `conda update -c astropy astroquery`
