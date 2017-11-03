@@ -22,6 +22,11 @@ The installation instructions below are for the Anaconda (or miniconda) Python d
     * Source code/report bugs: https://github.com/astropy/ccdproc (click "Issues to report bugs")
     * Install: `conda install -c astropy ccdproc`
     * Update: `conda update -c astropy ccdproc`
++ Notebook-based GUI image reduction with reducer:
+    * Documentation: http://reducer.readthedocs.io/
+    * Source code/report bugs/suggest improvements: https://github.com/mwcraig/reducer (click "Issues to report bugs")
+    * Install: `conda install -c conda-forge ccdproc`
+    * Update: `conda update -c conda-forge ccdproc`
 + Photometry with photutils (IRAF-like source detection, aperture and PSF photometry)
     * Documentation: http://photutils.readthedocs.io/
     * Source code/report bugs: https://github.com/astropy/photutils (click "Issues to report bugs")
@@ -37,3 +42,8 @@ The installation instructions below are for the Anaconda (or miniconda) Python d
     * Source code/report bugs: https://github.com/astropy/astroquery (click "Issues to report bugs")
     * Install: `conda install -c astropy astroquery`
     * Update: `conda update -c astropy astroquery`
++ Convenience functions/in-notebook visualization with glowing-waffles
+    * Documentation: Coming soon!
+    * Source code/report bugs/suggest new features: https://github.com/glowing-waffle/glowing-waffles (click "Issues to report bugs/suggest features")
+    * Install: `pip install glowing-waffles` (Anaconda or any other python distribution)
+    * Update: `pip install -U --no-deps glowing-waffles` (Anaconda or any other python distribution)
