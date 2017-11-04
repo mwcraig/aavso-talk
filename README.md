@@ -2,6 +2,11 @@
 
 The talk slides are [here](craig-aavso-fall-2017.pdf).
 
+## Links to online (no install necessary) Jupyter notebook examples
+
++ Image reduction: `reducer`: https://goo.gl/rgyLf6
++ A few short example from an observational astronomy course: https://goo.gl/RG4uLg
+
 ## Install Python
 
 All of the packages below should work with any Python distribution.
