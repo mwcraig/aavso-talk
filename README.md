@@ -50,6 +50,6 @@ The installation instructions below are for the Anaconda (or miniconda) Python d
 + Convenience functions/in-notebook visualization with glowing-waffles
     * Documentation: Coming soon!
     * Source code/report bugs/suggest new features: https://github.com/glowing-waffle/glowing-waffles (click "Issues to report bugs/suggest features")
-    * FIRST (for anaconda): `conda install -c astropy ccdproc photutils astroquery`
+    * FIRST (for anaconda): `conda install -c astropy ccdproc photutils astroquery ginga reducer ipevents`
     * Install: `pip install glowing-waffles` (Anaconda or any other python distribution)
     * Update: `pip install -U --no-deps glowing-waffles` (Anaconda or any other python distribution)
